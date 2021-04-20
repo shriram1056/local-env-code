@@ -1,0 +1,6 @@
+fragment RegularUser on User {
+  id
+  username
+}
+
+# name on type. type is the defined type in resolvers. so if you forget the types look for it there

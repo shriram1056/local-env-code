@@ -1,0 +1,32 @@
+when thsi code run: req.session.userId = user.id;
+
+{userId: 1} ->this data is sent that to redis
+
+
+1: in redis, this how things are stored. redis generate a random key for data
+sess:qwoeiuowqjoqjw -> { userId: 1 }
+
+2
+express-session will set a cookie on my browser qwoieu9012798quw9euoe1i2uo
+
+3
+when user makes a request, a cookie is sent to the browser
+qwoieu9012798quw9euoe1i2uo -> sent to the server
+
+4
+server decrypts the cookie  in redis with the cookie key in server to redis key
+qwoieu9012798quw9euoe1i2uo -> sess:qwoeiuowqjoqjw
+
+5
+server makes a request to redis
+sess:qwoeiuowqjoqjw -> { userId: 1 }
+
+req.session = { userId: 1 }
+
+you need to have redis-server in terminal if you want the initial connection to it.
+
+An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server. 
+
+EXPRESS Session
+
+When storing session data in a redis, the server will still use a cookie, but the cookie will only contain a unique sessionId. This sessionId will be used by the server to perform a lookup against the store.

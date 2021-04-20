@@ -1,0 +1,6 @@
+fragment RegularError on FieldError {
+  field
+  message
+}
+
+# name on type. type is the defined type in resolvers. so if you forget the types look for it there

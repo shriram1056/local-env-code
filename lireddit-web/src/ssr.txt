@@ -1,0 +1,19 @@
+me -> browse http://localhost:3000
+-> next.js server
+-> request graphql server localhost:4000
+-> building the HTML
+-> sending back to your browser
+
+in client side rendering, the page first shows loading and then fills the page with data.
+this is bad for SEO as the page source only has loading and not the data.
+this is due to the 2 time JS validation cause by change in 'data' triggered by hook and page source doesn't care about the 2nd data by JS
+
+Server-side rendering (SSR) is the process of rendering web pages on a server and passing them to the browser (client-side), instead of rendering them in the browser. 
+SSR sends a fully rendered page to the client; the client’s in client side rendering, the page first shows loading and then fills the page with data.
+this is bad for SEO as the page source only has loading and not the data.
+this is due to the 2 time JS validation cause by change in 'data' triggered by hook and page source doesn't care about the 2nd data by JS
+
+Server-side rendering (SSR) is the process of rendering web pages on a server and passing them to the browser (client-side), instead of rendering them in the browser. SSR sends a fully rendered page to the client; the client’s JavaScript bundle takes over and enables the SPA(Single Page Application) framework to operate.JavaScript bundle takes over and enables the SPA(Single Page Application) framework to operate.
+
+
+also if you navigate away from the page and refresh and go back to the page . then it won't be server-side rendering

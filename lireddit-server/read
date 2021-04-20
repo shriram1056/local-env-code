@@ -1,0 +1,1 @@
+in production, everything will be compiled to JS. so, using ts-node or just using TS for prod will make JS size bloat up. so, instead we convert TS to JS in development. this also, elimates the need for @types in dev which again increase size of JS 

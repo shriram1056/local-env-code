@@ -1,0 +1,7 @@
+mutation Register($options: UsernamePasswordInput!) {
+  register(options: $options) {
+    ...RegularUserResponse
+  }
+}
+
+# to pass variable name doesn't matter just

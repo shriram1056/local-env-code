@@ -1,0 +1,8 @@
+ssr- server is next js
+    browser -> next.js -> graphql api
+client side - browser not react
+    browser -> graphql api
+
+    e.g. fetch request happen in server in SSR instead of fetching it in browser
+
+

@@ -2,7 +2,7 @@
 
 made with chakra-ui, express, graphQL and next-js
 
-**with organiztions developing their own internal software for communication, there is a huge need for developer to make them. That inspired me to create this website, which I'm hoping to use to impress my future boss, no but seriously with minimal changes this project can be converted into a full-fledged blog or voting website.** 
+**with organiztions developing their own internal software for communication, there is a huge need for developer to make them. That inspired me to create this website, which I'm also hoping to use to impress my future boss, no but seriously with minimal changes this project can be converted into a full-fledged blog or voting website.** 
 
 ### The purpose of this project is to learn and practice concepts related to:<br />
 > * Building a GraphQL API
@@ -15,11 +15,16 @@ made with chakra-ui, express, graphQL and next-js
 > * postgreSQL pgdmin and command line
 > * mikroORM (DBContext, Migration)
 > * GraphQL (query, mutation, schemas and fragments)
+> * HTTP (GET, POST, PUT, PATCH, DELETE, status codes)
 > * simple database design 
+> * syncing data base model with schema
 > * dataloader
-> * component-based library (chakra-UI)  
+> * styled-component library (chakra-UI)  
 
 _Note: Please excuse the large amount of comments in my code, they are used as notes for later review._
+
+## Application Architechture:
+
 
 ## features: <br />
 a online voting website </br>

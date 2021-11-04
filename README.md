@@ -20,6 +20,7 @@ made with chakra-ui, express, graphQL and next-js
 > * syncing data base model with schema
 > * dataloader
 > * styled-component library (chakra-UI)  
+> * jsx, props, hooks, conditional rendering and custom hooks
 
 _Note: Please excuse the large amount of comments in my code, they are used as notes for later review._
 

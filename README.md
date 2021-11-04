@@ -24,9 +24,6 @@ made with chakra-ui, express, graphQL and next-js
 
 _Note: Please excuse the large amount of comments in my code, they are used as notes for later review._
 
-## Application Architechture:
-
-
 ## features: <br />
 a online voting website </br>
 users can create,delete and update post. </br>

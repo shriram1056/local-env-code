@@ -2,6 +2,8 @@
 
 made with chakra-ui, express, graphQL and next-js
 
+**with organiztions developing their own internal software for communication, there is a huge need for developer to make them. That inspired me to create this website, which I'm hoping to use to impress my future boss, no but seriously with minimal changes this project can be converted into a internal blog or voting website. 
+
 ### The purpose of this project is to learn and practice concepts related to:<br />
 > * Building a GraphQL API
 > * URQL

@@ -16,7 +16,7 @@ made with chakra-ui, express, graphQL and next-js
 > * mikroORM (DBContext, Migration)
 > * GraphQL (query, mutation, schemas and fragments)
 > * HTTP (GET, POST, PUT, PATCH, DELETE, status codes)
-> * simple database design 
+> * database design 
 > * syncing data base model with schema
 > * dataloader
 > * styled-component library (chakra-UI)  

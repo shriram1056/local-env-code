@@ -16,6 +16,9 @@ made with chakra-ui, express, graphQL and next-js
 > * mikroORM (DBContext, Migration)
 > * GraphQL (query, mutation, schemas and fragments)
 > * HTTP (GET, POST, PUT, PATCH, DELETE, status codes)
+> * Testing API Endpoints (graphQL playground)
+> * Docker (Container, Image, Deploying on Docker Hub)
+> * Deployment (heroku: back-end + postgreSQL + redis and vercel: front-end) 
 > * database design 
 > * syncing data base model with schema
 > * dataloader

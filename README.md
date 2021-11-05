@@ -1,4 +1,4 @@
-# lireddit
+# lireddit https://lireddit1056.vercel.app/
 
 made with chakra-ui, express, graphQL and next-js
 

@@ -18,12 +18,11 @@ made with chakra-ui, express, graphQL and next-js
 > * HTTP (GET, POST, PUT, PATCH, DELETE, status codes)
 > * Testing API Endpoints (graphQL playground)
 > * Docker (Container, Image, Deploying on Docker Hub)
-> * Deployment (heroku: back-end + postgreSQL + redis and vercel: front-end) 
+> * Deployment (Heroku: back-end + postgreSQL + redis and Vercel: front-end) 
 > * database design 
 > * syncing data base model with schema
 > * dataloader
 > * styled-component library (chakra-UI)  
-> * jsx, props, hooks, conditional rendering and custom hooks
 > * session management (redis)
 
 _Note: Please excuse the large amount of comments in my code, they are used as notes for later review._
